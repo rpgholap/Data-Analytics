@@ -10,12 +10,12 @@ This repository showcases the projects and assignments completed as part of my *
   - **Objective**: Learn how to create various types of charts and dashboards to analyze data.
   - **Details**: Completed and certified by Coursera. This certification demonstrates my proficiency in developing dynamic charts and interactive dashboards that visually represent the data in Microsoft Excel.
   - **Tools Used**: Microsoft Excel
-  - **[View Certification](./Coursera Create Charts and Dashboards using Microsoft Excel.pdf)**
+  - **[View Certification](./Coursera_Create_Charts_and_Dashboards_using_Microsoft_Excel.pdf)**
 
 - **Create Charts and Dashboards Using Google Sheets**
   - **Objective**: Explore the capabilities of Google Sheets for data visualization and dashboard creation.
   - **Details**: Completed and certified by Coursera. This certification reflects my ability to build comprehensive data visualizations using Google Sheets. Created and formatted charts and dashboards to demonstrate data insights effectively.
-  - **[View Certification](./Coursera Create Charts and Dashboards using Google Sheets.pdf)**
+  - **[View Certification](./Coursera_Create_Charts_and_Dashboards_using_Google_Sheets.pdf)**
 
 - **Introduction to Machine Learning**
   - **Objective**: Understand the foundational concepts of machine learning and its application to real-world problems.
