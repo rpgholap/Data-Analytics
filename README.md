@@ -10,17 +10,17 @@ This repository showcases the projects and assignments completed as part of my *
   - **Objective**: Learn how to create various types of charts and dashboards to analyze data.
   - **Details**: Completed and certified by Coursera. This certification demonstrates my proficiency in developing dynamic charts and interactive dashboards that visually represent the data in Microsoft Excel.
   - **Tools Used**: Microsoft Excel
-  - **[View Certification]([./excel_dashboard_certification.pdf](https://coursera.org/share/0c0d49c81093b51a063f32ee58b09b8c))**
+  - **[View Certification](./Coursera Create Charts and Dashboards using Microsoft Excel.pdf)**
 
 - **Create Charts and Dashboards Using Google Sheets**
   - **Objective**: Explore the capabilities of Google Sheets for data visualization and dashboard creation.
   - **Details**: Completed and certified by Coursera. This certification reflects my ability to build comprehensive data visualizations using Google Sheets. Created and formatted charts and dashboards to demonstrate data insights effectively.
-  - **[View Certification]([[./google_sheets_certification.pdf](https://coursera.org/share/fe5880bf92391db503c0d0f41bbd693c)](https://github.com/rpgholap/Data-Analytics))**
+  - **[View Certification](./Coursera Create Charts and Dashboards using Google Sheets.pdf)**
 
 - **Introduction to Machine Learning**
   - **Objective**: Understand the foundational concepts of machine learning and its application to real-world problems.
   - **Details**: This certification from Coursera covers machine learning fundamentals, supervised and unsupervised learning, model training, and performance evaluation.
-  - **[View Certification]([./machine_learning_certification.pdf](https://www.kaggle.com/learn/certification/rutujapgholap/intro-to-machine-learning))**
+  - **[View Certification](./Certificate.pdf)**
 
 
 ### Power BI Dashboards
