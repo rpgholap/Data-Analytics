@@ -15,7 +15,7 @@ This repository showcases the projects and assignments completed as part of my *
 - **Create Charts and Dashboards Using Google Sheets**
   - **Objective**: Explore the capabilities of Google Sheets for data visualization and dashboard creation.
   - **Details**: Completed and certified by Coursera. This certification reflects my ability to build comprehensive data visualizations using Google Sheets. Created and formatted charts and dashboards to demonstrate data insights effectively.
-  - **[View Certification]([./google_sheets_certification.pdf](https://coursera.org/share/fe5880bf92391db503c0d0f41bbd693c))**
+  - **[View Certification]([[./google_sheets_certification.pdf](https://coursera.org/share/fe5880bf92391db503c0d0f41bbd693c)](https://github.com/rpgholap/Data-Analytics))**
 
 - **Introduction to Machine Learning**
   - **Objective**: Understand the foundational concepts of machine learning and its application to real-world problems.
