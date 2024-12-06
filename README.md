@@ -1,149 +1,61 @@
-# Introduction to Machine Learning
+# Data Analytics Course
 
-This repository contains details about the course **"Introduction to Machine Learning"**, which I have successfully completed. Below, you will find an overview of the topics covered, concepts learned, and skills acquired during this course.
+This repository showcases the projects and assignments completed as part of my **Data Analytics** course. Below, you will find an overview of the different projects undertaken, including the tools used and a brief description of each task.
 
-## Course Contents
+## Certifications
 
-### 1. How Models Work
-- Understanding foundational concepts of machine learning.
-- Overview of learning methods.
+### Certifications and Overview
 
-### 2. Basic Data Exploration
-- Loading datasets.
-- Analyzing structure, identifying patterns, trends, and missing values.
+- **Create Charts and Dashboards Using Microsoft Excel**
+  - **Objective**: Learn how to create various types of charts and dashboards to analyze data.
+  - **Details**: Completed and certified by Coursera. This certification demonstrates my proficiency in developing dynamic charts and interactive dashboards that visually represent the data in Microsoft Excel.
+  - **Tools Used**: Microsoft Excel
+  - **[View Certification]([./excel_dashboard_certification.pdf](https://coursera.org/share/0c0d49c81093b51a063f32ee58b09b8c))**
 
-### 3. Your First Machine Learning Model
-- Step-by-step process to build a basic predictive model.
+- **Create Charts and Dashboards Using Google Sheets**
+  - **Objective**: Explore the capabilities of Google Sheets for data visualization and dashboard creation.
+  - **Details**: Completed and certified by Coursera. This certification reflects my ability to build comprehensive data visualizations using Google Sheets. Created and formatted charts and dashboards to demonstrate data insights effectively.
+  - **[View Certification]([./google_sheets_certification.pdf](https://coursera.org/share/fe5880bf92391db503c0d0f41bbd693c))**
 
-### 4. Model Validation
-- Techniques to evaluate model performance.
-- Comparison of accuracy using metrics.
+- **Introduction to Machine Learning**
+  - **Objective**: Understand the foundational concepts of machine learning and its application to real-world problems.
+  - **Details**: This certification from Coursera covers machine learning fundamentals, supervised and unsupervised learning, model training, and performance evaluation.
+  - **[View Certification]([./machine_learning_certification.pdf](https://www.kaggle.com/learn/certification/rutujapgholap/intro-to-machine-learning))**
 
-### 5. Underfitting and Overfitting
-- Detecting and addressing bias and variance issues.
 
-### 6. Random Forests
-- Introduction to ensemble learning.
-- Building random forest models.
+### Power BI Dashboards
 
-## Key Topics Explored
+### Indian Startup Funding Dashboard in Power BI
+- **Objective**: Develop a comprehensive dashboard that analyzes startup funding trends in India.
+- **Data Source**: Kaggle's *Indian Startup Funding* dataset.
+- **Tools Used**: Power BI
+- **Details**: Imported the dataset into Power BI, created various visualizations (e.g., bar charts, line graphs, pie charts), and built a dashboard to showcase trends and insights.
+- **[View Power BI Dashboard](./Indian_Startup_Funding.pbix)**
 
-### Decision Trees Overview
-Machine learning involves building models that predict outcomes based on patterns in historical data. For example, predicting house prices based on characteristics like the number of bedrooms or lot size.
+### 4. Guided E-commerce Sales Dashboard in Power BI
+- **Objective**: Build a guided Power BI dashboard focusing on e-commerce sales analytics.
+- **Tools Used**: Power BI
+- **Details**: This project involved a step-by-step approach to create a dashboard that analyzes e-commerce sales data, including metrics like sales by category, regions, and monthly sales trends.
+- **[View Power BI Dashboard](./DA_Dashboard.pbix)**  
 
-#### How Decision Trees Work:
-- Divide data into groups based on features (e.g., bedrooms).
-- Predict values derived from the average price within these groups.
+## Technologies Used
+- Microsoft Excel
+- Google Sheets
+- Power BI
 
-#### Improving Decision Trees:
-- Adding splits (deeper trees) captures more influencing factors like bathrooms, location, and lot size.
-- Risk of overfitting with too many splits.
-
-### Exploring Data with Pandas
-- **Importing Pandas**:
-  ```python
-  import pandas as pd
-  ```
-- **Loading Data**:
-  ```python
-  melbourne_file_path = '../input/melbourne-housing-snapshot/melb_data.csv'
-  melbourne_data = pd.read_csv(melbourne_file_path)
-  ```
-- **Summarizing Data**:
-  ```python
-  melbourne_data.describe()
-  ```
-  Insights include count, mean, standard deviation, min & max values, and percentiles.
-
-### Building a Machine Learning Model
-Steps to build and use a machine learning model:
-1. **Select Target (y)**:
-   ```python
-   y = melbourne_data.Price
-   ```
-2. **Choose Features (X)**:
-   ```python
-   melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
-   X = melbourne_data[melbourne_features]
-   ```
-3. **Build the Model**:
-   ```python
-   from sklearn.tree import DecisionTreeRegressor
-   melbourne_model = DecisionTreeRegressor(random_state=1)
-   melbourne_model.fit(X, y)
-   ```
-4. **Make Predictions**:
-   ```python
-   melbourne_model.predict(X.head())
-   ```
-
-### Model Validation
-- **Mean Absolute Error (MAE)**:
-  ```python
-  from sklearn.metrics import mean_absolute_error
-  mean_absolute_error(y, predicted_prices)
-  ```
-
-### Building a Machine Learning Model
-Steps to build and use a machine learning model:
-1. **Select Target (y)**:
-   ```python
-   y = melbourne_data.Price
-   ```
-2. **Choose Features (X)**:
-   ```python
-   melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
-   X = melbourne_data[melbourne_features]
-   ```
-3. **Build the Model**:
-   ```python
-   from sklearn.tree import DecisionTreeRegressor
-   melbourne_model = DecisionTreeRegressor(random_state=1)
-   melbourne_model.fit(X, y)
-   ```
-4. **Make Predictions**:
-   ```python
-   melbourne_model.predict(X.head())
-   ```
-
-### Model Validation
-- **Mean Absolute Error (MAE)**:
-  ```python
-  from sklearn.metrics import mean_absolute_error
-  mean_absolute_error(y, predicted_prices)
-  ```
-- **Data Splitting**:
-  ```python
-  from sklearn.model_selection import train_test_split
-  train_X, val_X, train_y, val_y = train_test_split(X, y, random_state=0)
-  ```
-
-### Introduction to Random Forests
-- Random Forests combine multiple decision trees and average their predictions for improved accuracy.
-
-## Course Outcomes
-- Developed a strong foundation in machine learning concepts and algorithms.
-- Gained practical skills in data preprocessing and exploration.
-- Built and evaluated predictive models using Python and scikit-learn.
-- Learned methods to enhance model performance by addressing underfitting and overfitting.
-- Acquired the ability to work with advanced algorithms like Random Forests.
-
-## Benefits in the Industry
-- **Data-Driven Decision Making**: Apply machine learning models to uncover insights and make predictions.
-- **Enhanced Automation**: Design intelligent systems for recommendation engines and fraud detection.
-- **Optimized Business Processes**: Use machine learning to improve operational efficiency.
-- **Career Growth**: Equip oneself with in-demand skills for various industries.
+## Outcome and Skills Acquired
+- **Proficiency in Data Visualization**: Developed advanced skills in creating interactive charts and dashboards.
+- **Data Analysis**: Analyzed complex datasets to extract meaningful insights and trends.
+- **Tool Expertise**: Enhanced expertise in using Microsoft Excel, Google Sheets, and Power BI for data analysis and presentation.
+- **Project Development**: Gained practical experience in designing dashboards for real-world data analytics scenarios.
 
 ## Conclusion
-The course **"Introduction to Machine Learning"** provides a solid entry point into the world of AI and data science. By covering essential topics such as data exploration, model validation, and advanced techniques like Random Forests, this course equips learners with the skills needed to tackle real-world challenges. The knowledge and expertise gained pave the way for impactful contributions to the industry, fostering innovation and efficiency.
+This course has equipped me with a comprehensive understanding of creating data-driven charts and dashboards using Excel, Google Sheets, and Power BI. 
+I have applied these skills to develop impactful visualizations that can inform business decisions and provide valuable insights.
 
 ---
 
-### Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-
----
+### Author
+[Rutuja Pavin Gholap](https://github.com/rpgholap)
 
 Feel free to explore the repository and provide feedback!
